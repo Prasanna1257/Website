@@ -1,0 +1,83 @@
+.containe {
+    height: 71.5vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #eec0c6;
+    background-image: radial-gradient(#eec0c6 0%, #e58c8a 3%, rgb(251, 251, 89) 74%);
+    padding: 2rem;
+    border-radius: 5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    /* text-align: center; */
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  
+  form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  form label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="password"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    width: 50%;
+  }
+  
+  form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    width: 25%;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+
+   select{
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    width: 51.5%;
+  }
+
+  #fruitsDropdown, #vegetablesDropdown,#grainsDropdown, #nutsDropdown, #herbsDropdown,
+  #meatDropdown, #seafoodDropdown, #eggsDropdown, #milkDropdown, #riceDropdown, #additionalDropdown{
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    width: 51.5%;
+  }

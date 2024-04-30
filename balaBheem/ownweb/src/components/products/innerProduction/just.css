@@ -1,0 +1,60 @@
+
+/* Main container */
+.inner{
+    padding: 20px;
+  }
+  
+  /* Heading styles */
+  h1 {
+    color: #000000;
+  }
+  
+  h2 {
+    color: #000000;
+  }
+  
+  h3 {
+    color: #000000;
+  }
+  
+  /* Grid container */
+  .inner-vegetarian div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Figure styles */
+  figure {
+    flex: 1 1 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  figure:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Image styles */
+  figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Button styles */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

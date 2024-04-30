@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ba2d0b;
+    background-image: linear-gradient(319deg, #ff3300 0%, #ff6600 37%, #ffa600 100%);
+    padding: 2rem;
+    border-radius: 5rem;
+    height: 71.5vh;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .content h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .login-container {
+    margin-top: 2rem;
+  }
+
+  .login-container h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+
+  .login-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .farmer-login,
+  .customer-login {
+  margin: 0.1rem;
+}
+
+.farmer-login h3,
+.customer-login h3{
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.regi-link, .login-link{
+  font-size: 1.2rem;
+  color: rgb(250, 200, 0);
+  text-decoration: none;
+}
+  .regi-options{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+  .farmer-regi,
+  .customer-regi{
+  margin: 0 1rem;
+}
+
+  .farmer-regi h3,
+  .customer-regi h3{
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
